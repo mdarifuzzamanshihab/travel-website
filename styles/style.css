@@ -17,6 +17,7 @@ body {
     margin-right: 135px;
 }
 
+
 nav img {
     width: 3.7rem;
     height: 3.5rem;
@@ -67,8 +68,8 @@ nav ul li span {
 /* Explore section */
 
 .explore-container {
-    
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/Images/group1.png");
+    /* background-image: url("/Images/group1.png"); */
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/Images/group1.png");
     background-repeat: no-repeat;
     border-radius: 16px;
     background-size: contain;
@@ -77,7 +78,7 @@ nav ul li span {
     margin: auto;
     padding: 28.5px 80px;
     text-align: center;
-    
+
 
 }
 
@@ -107,17 +108,22 @@ nav ul li span {
 }
 
 #where {
-    padding: 16px 84px 16px 16px;
+    padding: 0px 0px 0px 16px;
     border-radius: 8px;
     background: #FFF;
     border: none;
+    width: 174px;
+    height: 52px;
+
 }
 
 #when {
-    padding: 16px 84px 16px 16px;
+    padding: 16px 50px 16px 16px;
     border-radius: 8px;
     background: #FFF;
     border: none;
+    width: 174px;
+    height: 52px;
 }
 
 .find-now {
@@ -129,4 +135,92 @@ nav ul li span {
     font-size: 1rem;
     font-weight: 700;
     padding: 16px 34px;
+    width: 174px;
+    height: 52px;
+}
+
+
+
+
+/* Mobile Device Responsive */
+
+@media screen and (max-width:600px) {
+    /* body{
+    margin-left: 20px;
+    margin-right: 20px;
+   } */
+
+    .main-nav {
+        flex-direction: column;
+
+    }
+
+    .nav-title-contain {
+        margin: auto;
+    }
+
+    .explore-container {
+        background-position: center center;
+        position: relative;
+        background-size: cover;
+        object-fit: cover;
+        width: 335px;
+        height: 483px;
+    }
+
+    .select-section {
+        flex-direction: column;
+        width: 287px;
+        margin-top: 32px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .explore-title {
+        font-size: 1.3rem;
+        font-weight: 800;
+        margin-top: 10px;
+    }
+
+    .explore-para {
+        font-size: 0.8rem;
+        font-weight: 400;
+        margin: 5px 16px;
+    }
+
+    #when {
+        width: 260px;
+    }
+
+    #when {
+        padding: 16px 50px 16px 16px;
+    }
+
+    #where {
+        width: 248px;
+    }
+
+    .find-now {
+        width: 260px;
+    }
+
+    .ul {
+        margin-left: 80px;
+        justify-content: space-around;
+        margin-bottom: 40px;
+
+    }
+
+    nav ul li {
+
+        margin-right: 10px;
+    }
+
+    .nav-title-contain {}
+
+    .nav-title {
+
+        margin-right: 0;
+    }
 }
