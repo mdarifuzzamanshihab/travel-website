@@ -1,53 +1,132 @@
 /* Full Body Font */
-  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700;800&display=swap');
 
-*{
+* {
     font-family: 'Mulish', sans-serif;
 }
-body{
+
+body {
     margin-top: 52px;
 }
+
 /* Header Section */
-.main-nav{
+.main-nav {
     display: flex;
     justify-content: space-between;
-    margin-left: 135px ;
+    margin-left: 135px;
     margin-right: 135px;
 }
-nav img{
+
+nav img {
     width: 3.7rem;
-height: 3.5rem;
-margin-right: 16px;
+    height: 3.5rem;
+    margin-right: 16px;
 }
-nav h3{
+
+nav h3 {
     margin-top: 0;
 }
-.nav-title span{
+
+.nav-title span {
     color: #FF5400;
 }
-.nav-title-contain{
+
+.nav-title-contain {
     display: flex;
 }
-nav ul{
+
+nav ul {
     display: flex;
-    
+
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
     text-align: center;
     color: #424247;
-font-size: 18px;
-font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 44px;
 
 }
-nav ul li span{
+
+nav ul li span {
     color: #FF5400;
 }
-.nav-title{
-font-size: 2.3rem;
-font-weight: 800;
+
+.nav-title {
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+
+/* Explore section */
+
+.explore-container {
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/Images/group1.png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-size: contain;
+    width: 1170px;
+    height: 500px;
+    margin: auto;
+    padding: 28.5px 80px;
+    text-align: center;
+    
+
+}
+
+.explore-title {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 80px;
+}
+
+.explore-para {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 24px 247px;
+}
+
+.select-section {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+#where {
+    padding: 16px 84px 16px 16px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+
+#when {
+    padding: 16px 84px 16px 16px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+
+.find-now {
+    border-radius: 8px;
+    border: 0;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 16px 34px;
 }
