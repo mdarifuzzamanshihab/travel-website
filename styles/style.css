@@ -7,6 +7,9 @@
 
 body {
     margin-top: 52px;
+    
+}
+main{
     margin-left: 135px;
     margin-right: 135px;
 }
@@ -180,6 +183,167 @@ nav ul li span {
     font-size: 1.1rem;
     font-weight: 800;
     margin-top: 10px;
+}
+
+
+
+/* Choose you destination */
+
+.Choose h3{
+    color: #131318;
+text-align: center;
+font-size: 2.4rem;
+font-weight: 800;
+margin-bottom: 24px;
+}
+.Choose p{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+margin-bottom: 50px;
+}
+
+/* .img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 374px auto 274px;
+} */
+/* 
+.row1{
+    display: flex;
+    height: 300px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.row img{
+    width: 100%;
+    height: 100%
+}
+.pic3{
+    display: flex  ;
+    height: 300px;
+    gap: 35px;
+    justify-content: center;
+    margin-top: 30px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row2{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.img-container{
+    position: relative;
+   width: max-content;
+} */
+
+.back{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 25px;
+    
+}
+
+
+.bg1{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/Images/Rectangle5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 16px;
+    
+}
+.bg2{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/Images/Rectangle88.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:300px;
+    border-radius: 16px;
+}
+.back h3{
+    margin: 0;
+    color: #FFF;
+text-align: center;
+font-size: 2.3rem;
+font-weight: 800;
+padding: 133px 227px;
+}
+
+.back2{
+    display: flex;
+    gap: 25px;
+}
+.bg3{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/Images/Rectangle6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height:286px;
+    border-radius: 16px; 
+}
+.bg4{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/Images/Rectangle7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 474px;
+height: 286px;
+    border-radius: 16px; 
+}
+.bg5{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/Images/Rectangle8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 274px;
+height: 286px;
+    border-radius: 16px; 
+}
+
+.back2 h3{
+    margin: 0;
+    color: #FFF;
+text-align: center;
+font-size: 2.3rem;
+font-weight: 800;
+margin-top: 116px;
+}
+
+.back3{
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+}
+.bg6{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/Images/Rectangle11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+height: 286px;
+    border-radius: 16px;
+}
+.bg7{
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/Images/Rectangle10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+height: 286px;
+    border-radius: 16px;
+}
+
+.back3 h3{
+    margin: 0;
+    color: #FFF;
+text-align: center;
+font-size: 2.3rem;
+font-weight: 800;
+margin-top: 116px;
 }
 
 /* Mobile Device Responsive */
