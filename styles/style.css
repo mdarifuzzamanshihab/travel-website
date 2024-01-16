@@ -7,6 +7,8 @@
 
 body {
     margin-top: 52px;
+    margin-left: 135px;
+    margin-right: 135px;
 }
 
 /* Header Section */
@@ -139,16 +141,54 @@ nav ul li span {
     height: 52px;
 }
 
+/* popular tour section */
 
+.popular-tour {
+    margin-top: 100px;
+    display: flex;
+}
 
+.popular {
+    padding-right: 30px;
+}
+
+.popular-title {
+    color: #131318;
+    font-size: 2.6rem;
+    font-weight: 800;
+}
+
+.popular-tour li,
+.same-para {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-right: 100px;
+}
+
+.popular-tour li {
+    margin-bottom: 15px;
+}
+
+.read-more {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    border: none;
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-top: 10px;
+}
 
 /* Mobile Device Responsive */
 
 @media screen and (max-width:600px) {
-    /* body{
-    margin-left: 20px;
-    margin-right: 20px;
-   } */
+    body {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 
     .main-nav {
         flex-direction: column;
@@ -222,5 +262,38 @@ nav ul li span {
     .nav-title {
 
         margin-right: 0;
+    }
+
+    .popular-tour {
+        flex-direction: column;
+        padding: 0;
+        width: 335px;
+    }
+
+    .popular {
+        padding-right: 0;
+        font-size: 14px;
+
+    }
+
+    .popular-tour li,
+    .same-para {
+        padding-right: 0;
+        margin-left: 20px;
+        margin-right: -140px;
+    }
+
+    .popular-title {
+        margin-right: -20px;
+        margin-left: 20px;
+    }
+
+    .pic-popular img {
+        margin-top: 24px;
+        position: relative;
+        
+        
+
+        margin-right: 24px;
     }
 }
