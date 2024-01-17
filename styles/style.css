@@ -255,7 +255,7 @@ nav ul li span {
 
 
 .bg1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/Images/Rectangle5.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/Rectangle5.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -265,7 +265,7 @@ nav ul li span {
 }
 
 .bg2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/Images/Rectangle88.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/Rectangle88.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -288,7 +288,7 @@ nav ul li span {
 }
 
 .bg3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/Images/Rectangle6.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/Rectangle6.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 500px;
@@ -306,7 +306,7 @@ nav ul li span {
 }
 
 .bg5 {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/Images/Rectangle8.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/rectangle8.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 274px;
@@ -330,7 +330,7 @@ nav ul li span {
 }
 
 .bg6 {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/Images/Rectangle11.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/rectangle11.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -339,7 +339,7 @@ nav ul li span {
 }
 
 .bg7 {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/Images/Rectangle10.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/rectangle10.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
