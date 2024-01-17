@@ -7,12 +7,13 @@
 
 body {
     margin-top: 52px;
-
+    margin-left: 135px;
+    margin-right: 135px;
 }
 
 main {
-    margin-left: 135px;
-    margin-right: 135px;
+    /* margin-left: 135px;
+    margin-right: 135px; */
 }
 
 /* Header Section */
@@ -402,40 +403,46 @@ nav ul li span {
     padding: 32px 55px;
 }
 
-.price{
+.price {
     width: 573px;
-height: 284px;
-flex-shrink: 0;
-border-radius: 16px;
-border: 1px solid rgba(233, 68, 68, 0.20);
-background: rgba(233, 68, 68, 0.05);
-padding: 32px 55px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px 55px;
 }
 
-.price2{
+.price2 {
     margin-left: 355px;
     margin-top: 25px;
 }
-.img1{
-    width: 100px;
-    height: 100px;
-}
-.img2{
-    width: 100px;
-    height: 100px;
-}
-.img3{
+
+.img1 {
     width: 100px;
     height: 100px;
 }
 
-.why-sec h3, .price2 h3{
+.img2 {
+    width: 100px;
+    height: 100px;
+}
+
+.img3 {
+    width: 100px;
+    height: 100px;
+}
+
+.why-sec h3,
+.price2 h3 {
     color: #131318;
-font-size: 1.5rem;
-font-weight: 800;
+    font-size: 1.5rem;
+    font-weight: 800;
 
 }
-.why-sec p, .price2 p{
+
+.why-sec p,
+.price2 p {
     color: #5A5A5D;
     font-size: 1rem;
     font-weight: 400;
@@ -630,4 +637,19 @@ font-weight: 800;
     .bg7 {
         width: 540px;
     }
+
+    .why-sec{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .hotels, .serv, .price {
+        width: 425px;
+        height: 289px;
+    }
+
+    .price2{
+        margin: 0;
+        margin-top: 25px;
+    }
+
 }
